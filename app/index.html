@@ -12,7 +12,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/sass-bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/sass-bootstrap/dist/css/bootstrap.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css({.tmp,app}) styles/main.css -->
@@ -25,7 +25,22 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="container" ng-view=""></div>
+    <div class="container" ng-view="">
+      
+    </div>
+
+   <!--  <form action="#" name="aFrom">
+      <input type="text" ng-model="data.ftw" name="ftw">
+    </form>
+
+    
+    <ul ng-init="persons = [{'name': 'myName01', 'age': '01'},{'name': 'myName02', 'age': '02'},{'name': 'myName03', 'age': '03'},{'name': 'myName04', 'age': '04'},{'name': 'myName05', 'age': '05'},{'name': 'myName06', 'age': '06'},{'name': 'myName07', 'age': '07'},{'name': 'myName08', 'age': '08'},{'name': 'myName09', 'age': '09'},{'name': 'myName10', 'age': '10'},{'name': 'myName11', 'age': '11'},{'name': 'myName12', 'age': '12'},{'name': 'myName13', 'age': '13'},{'name': 'myName14', 'age': '14'},{'name': 'myName15', 'age': '15'},{'name': 'myName16', 'age': '16'},{'name': 'myName17', 'age': '17'},{'name': 'myName18', 'age': '18'},{'name': 'myName19', 'age': '19'},{'name': 'myName20', 'age': '20'}]">
+
+      <li ng-repeat="person in persons | filter:data.ftw">
+        <pre>i am <span style="color:red">{{person.name}}</span>, my age is <span style="color:red">{{person.age}}</span></pre>
+      </li>
+
+    </ul> -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
